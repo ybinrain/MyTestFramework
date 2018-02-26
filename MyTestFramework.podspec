@@ -17,8 +17,9 @@ Pod::Spec.new do |s|
                    DESC
   s.author       = { "ybin" => "zyb0807@gmail.com" }
 
-  s.homepage     = "http://ybinrain.cn/MyTestFramework"
+  s.homepage     = "http://ybinrain.cn/"
   s.license      = "Copyleft"
   s.source       = { :git => "https://github.com/ybinrain/MyTestFramework.git", :tag => "0.0.1" }
   s.source_files = "MyTestFramework", "MyTestFramework/*.{h,m,swift}"
+  s.platform = :ios, "9.0"
 end
