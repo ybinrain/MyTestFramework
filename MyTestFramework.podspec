@@ -13,15 +13,12 @@ Pod::Spec.new do |s|
   s.summary      = "A short description of MyTestFramework."
 
   s.description  = <<-DESC
-  Just a test.
-  Just a test.
-  Just a test.
-  Just a test.
+  A short description of MyTestFramework. Just a test.
                    DESC
   s.author       = { "ybin" => "zyb0807@gmail.com" }
 
   s.homepage     = "http://ybinrain.cn/MyTestFramework"
   s.license      = "Copyleft"
-  s.source       = { :git => "https://github.com/ybinrain/MyTestFramework.git", :branch => "master" }
-  s.source_files  = "*.swift", "*.{h,m}"
+  s.source       = { :git => "https://github.com/ybinrain/MyTestFramework.git", :tag => "0.0.1" }
+  s.source_files = "MyTestFramework", "MyTestFramework/*.{h,m,swift}"
 end
